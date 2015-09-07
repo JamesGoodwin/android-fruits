@@ -15,6 +15,10 @@ public class FruitsLoader extends AsyncTaskLoader<List<Fruit>> {
 
     @Override
     public List<Fruit> loadInBackground() {
+        // with more time I would use dependency injection to provide
+        // the FruitsApiService to the Loader, then verify with a unit test
+        // that the ApiService is called and returns the data.
+
         RestAdapter.Builder builder = new RestAdapter.Builder()
                 .setEndpoint("http://private-e889-fruity.apiary-mock.com");
 
