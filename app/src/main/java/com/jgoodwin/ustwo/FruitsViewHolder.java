@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
+import com.bumptech.glide.Glide;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -32,9 +32,8 @@ public class FruitsViewHolder extends RecyclerView.ViewHolder {
 
         description.setText(fruit.getDescription());
 
-        Picasso.with(iconImage.getContext())
+        Glide.with(iconImage.getContext())
                 .load(fruit.getImageUrl())
-                .noFade()
                 .into(iconImage);
     }
 }
