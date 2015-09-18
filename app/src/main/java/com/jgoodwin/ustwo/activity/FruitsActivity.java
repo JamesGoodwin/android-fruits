@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo;
+package com.jgoodwin.ustwo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
