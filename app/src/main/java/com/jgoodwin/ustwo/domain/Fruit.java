@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo;
+package com.jgoodwin.ustwo.domain;
 
 public class Fruit {
 
