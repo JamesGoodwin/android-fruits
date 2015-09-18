@@ -1,7 +1,7 @@
-package com.jgoodwin.ustwo.activity;
+package com.jgoodwin.fruitsapp.activity;
 
-import com.jgoodwin.ustwo.domain.Fruit;
-import com.jgoodwin.ustwo.service.FruitApiService;
+import com.jgoodwin.fruitsapp.domain.Fruit;
+import com.jgoodwin.fruitsapp.service.FruitApiService;
 
 import java.util.List;
 

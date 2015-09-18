@@ -1,6 +1,6 @@
-package com.jgoodwin.ustwo.arch.injection;
+package com.jgoodwin.fruitsapp.arch.injection;
 
-import com.jgoodwin.ustwo.activity.FruitListFragment;
+import com.jgoodwin.fruitsapp.activity.FruitListFragment;
 
 import javax.inject.Singleton;
 

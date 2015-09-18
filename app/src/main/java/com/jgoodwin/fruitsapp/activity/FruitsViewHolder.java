@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo.activity;
+package com.jgoodwin.fruitsapp.activity;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.jgoodwin.ustwo.R;
-import com.jgoodwin.ustwo.domain.Fruit;
+import com.jgoodwin.fruitsapp.domain.Fruit;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

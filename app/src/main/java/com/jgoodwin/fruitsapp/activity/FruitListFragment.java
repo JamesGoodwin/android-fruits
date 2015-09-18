@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo.activity;
+package com.jgoodwin.fruitsapp.activity;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jgoodwin.ustwo.FruitsApp;
+import com.jgoodwin.fruitsapp.FruitsApp;
+import com.jgoodwin.fruitsapp.domain.Fruit;
 import com.jgoodwin.ustwo.R;
-import com.jgoodwin.ustwo.domain.Fruit;
 
 import java.util.List;
 

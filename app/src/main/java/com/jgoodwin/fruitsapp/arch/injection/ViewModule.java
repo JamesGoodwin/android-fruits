@@ -1,8 +1,8 @@
-package com.jgoodwin.ustwo.arch.injection;
+package com.jgoodwin.fruitsapp.arch.injection;
 
-import com.jgoodwin.ustwo.activity.FruitsPresenter;
-import com.jgoodwin.ustwo.activity.FruitsPresenterImpl;
-import com.jgoodwin.ustwo.service.FruitApiService;
+import com.jgoodwin.fruitsapp.activity.FruitsPresenterImpl;
+import com.jgoodwin.fruitsapp.activity.FruitsPresenter;
+import com.jgoodwin.fruitsapp.service.FruitApiService;
 
 import javax.inject.Singleton;
 

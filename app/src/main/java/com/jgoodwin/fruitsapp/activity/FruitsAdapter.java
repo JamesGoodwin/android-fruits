@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo.activity;
+package com.jgoodwin.fruitsapp.activity;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jgoodwin.ustwo.R;
-import com.jgoodwin.ustwo.domain.Fruit;
+import com.jgoodwin.fruitsapp.domain.Fruit;
 
 import java.util.List;
 

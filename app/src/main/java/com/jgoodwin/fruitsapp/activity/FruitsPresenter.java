@@ -1,4 +1,4 @@
-package com.jgoodwin.ustwo.activity;
+package com.jgoodwin.fruitsapp.activity;
 
 public interface FruitsPresenter {
 
